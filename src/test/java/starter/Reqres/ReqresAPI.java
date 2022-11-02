@@ -19,7 +19,8 @@ public class ReqresAPI {
 
     @Step("Get list users")
     public void setGetListUsers(int page){
-        SerenityRest.given().pathParam("page", page);
+        SerenityRest.given()
+                .pathParam("page", page);
     }
     @Step("Post create new user")
     public void setPostCreateNewUser(File json){

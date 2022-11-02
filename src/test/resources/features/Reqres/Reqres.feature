@@ -5,7 +5,7 @@ Feature: Reqres Feature test
     When Send get list user request
     Then Status code should be 200 OK
     And Respons body page should be <page>
-    Examples:
+  Examples:
       |page  |
       |1     |
       |2     |
